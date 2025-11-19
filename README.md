@@ -1,5 +1,5 @@
 # ai2
-streamlit_app.py
+'streamlit_app.py'
 import os
 from io import BytesIO
 
@@ -8,9 +8,9 @@ import streamlit as st
 from PIL import Image, ImageOps
 from fastai.vision.all import 
 import gdown
- ======================
- 0) 페이지/스타일 설명
- 1)  ======================
+# ======================
+# 0) 페이지/스타일 설명
+# 1)  ======================
 st.set_page_config(page_title="Fastai 이미지 분류기 (스냅샷)", page_icon="🤖")
 
 st.markdown("""
